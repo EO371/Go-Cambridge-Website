@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact Us - Go-Cambridge</title>
+    </head>
+    <body>
+        <h1><header><p style="text-align:center">Go-Cambridge</header></h1>
+        <h2><sub-header><p style="text-align:center">Enjoy the beauty of the Cambridgeshire county</p></sub-header></h2>
+        <hr>
+        <h3><p style="text-align:center"><a href="Front Page.html">Home</a><span style="width:10px; display:inline-block"></span><a href="Town and Cities.html">Town & Cities</a><span style="width:10px; display:inline-block"></span><a href="Activities and Attractions.html">Activities & Attractions</a></p></h3>
+        <hr>
+        <p>
+            <h1><header>Contact Us</header></h1>
+            <p>If you have any further enquiries about the area, contact us either through mobile, email or through the contact form down below</p>
+        </p>
+        <p>
+            <div class="contact">
+                <form action="contactpage.php" method="post">
+
+                    <div id="contactus">
+                    <div class="contactform">
+                        <label for="forename" class="contact-label">Forename/First Name</label>
+                        <div class="contactinput-group">
+                            <input type="text" id="forename" name="forename" placeholder="John" class="contactform-control" required>
+                        </div>
+                    </div>
+
+                    <div class="contactform">
+                        <label for="surname" class="contact-label">Surname/Last Name</label>
+                        <div class="contactinput-group">
+                            <input type="text" id="surname" name="surname" placeholder="Smith" class="contactform-control" required>
+                        </div>
+                    </div>
+
+                    <div class="contactform">
+                        <label for="phonenumber" class="contact-label">Phone Number</label>
+                        <div class="contactinput-group">
+                            <input type="char" id="phonenumber" name="phonenumber" placeholder="01234567890" class="contactform-control" required>
+                        </div>
+                    </div>
+
+                    <div class="contactform">
+                        <label for="emailaddress" class="contact-label">Email Address</label>
+                        <div class="contactinput-group">
+                            <input type="char" id="emailaddress" name="emailaddress" placeholder="JohnSmith@example.com" class="contactform-control" required>
+                        </div>
+                    </div>
+
+                    <div class="contactform">
+                        <label for="subject" class="contact-label">Subject</label>
+                        <div class="contactinput-group">
+                            <textarea id="subject" name="subject" placeholder="Subject of your enquiry..." class="contactform-control" rows="3" maxlength="150" style="width:300px" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="contactform">
+                        <label for="message" class="contact-label">Message</label>
+                        <div class="contactinput-group">
+                            <textarea id="message" name="message" placeholder="Your enquiry..." class="contactform-control" rows="6" maxlength="3000" style="width:550px" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="contactform">
+                        <button type="submit" id="contactform-button" value="Submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </p>
+    </body>
+</html>
